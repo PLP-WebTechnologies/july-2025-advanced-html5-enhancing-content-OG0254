@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Backend developer profile, project intake form, and learning tracker.">
+    <meta name="keywords" content="HTML5, Backend, Python, FastAPI, Freelancer Form">
+    <meta name="author" content="Ryan Beuer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backend Dev Portfolio & Project Form</title>
+</head>
+<body>
+
+    <header>
+        <h1>Brian Ogada – Backend Developer & Automation Enthusiast</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#tools">My Stack</a></li>
+                <li><a href="#media">Learning Media</a></li>
+                <li><a href="#form">Project Request</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I’m a passionate backend developer currently exploring Python, FastAPI, and PostgreSQL. My goal is to automate tasks, build APIs, and grow my freelance career. I’m learning through platforms like freeCodeCamp and working on real-world projects to sharpen my skills daily. Thank you PLP for the scholarship i will be able to realise my dream in a well structured manner.</p>
+        </section>
+
+        <section id="tools">
+            <h2>Learning Schedule & Tools</h2>
+
+            <table>
+                <caption>Weekly Learning Tracker</caption>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Focus Area</th>
+                        <th>Tools</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Monday</td><td>Web Development</td><td>VS Code</td></tr>
+                    <tr><td>Tuesday</td><td>Python</td><td>VS Code, leetcode, freeCodeCamp</td></tr>
+                    <tr><td>Wednesday</td><td>Database</td><td>mySQL</td></tr>
+                    <tr><td>Thursday</td><td>Automation & Fast API</td><td>Postman, Selenium, OS Module</td></tr>
+                    <tr><td>Friday</td><td>Mini Projects</td><td>GitHub</td></tr>
+                </tbody>
+            </table>
+
+            <h3>Current Tech Stack</h3>
+            <ul>
+                <li>Python 3</li>
+                <li>FastAPI + PostgreSQL</li>
+                <li>Selenium for Automation</li>
+                <li>HTML5 + CLI</li>
+            </ul>
+        </section>
+
+        <section id="media">
+            <h2>Learning Media</h2>
+
+            <h3>Audio: Productivity Tips for Developers</h3>
+            <p>Listen to a short talk on boosting focus and productivity:</p>
+            <audio controls>
+                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+            </audio>
+
+
+            <h3>Video: HTML5 Tutorial for Beginners</h3>
+            <p>Watch this short video on the basics of HTML5:</p>
+            <video controls width="500">
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            </video>
+
+        </section>
+
+        <section id="form">
+            <h2>Freelancer Project Request Form</h2>
+
+            <form action="#" method="post" autocomplete="on">
+                <fieldset>
+                    <legend>Your Details</legend>
+
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required placeholder="Jane Doe"><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="you@example.com"><br><br>
+
+                    <label for="project-date">Preferred Start Date:</label>
+                    <input type="date" id="project-date" name="project-date" required><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Project Details</legend>
+
+                    <label for="project-type">Project Type:</label>
+                    <select id="project-type" name="project-type" required>
+                        <option value="">--Select--</option>
+                        <option value="api">API Development</option>
+                        <option value="automation">Automation Script</option>
+                        <option value="scraping">Web Scraping</option>
+                    </select><br><br>
+
+                    <label for="description">Project Description:</label><br>
+                    <textarea id="description" name="description" rows="5" cols="40" placeholder="Brief overview of your project..." required></textarea><br><br>
+
+                    <label>
+                        <input type="checkbox" name="terms" required>
+                        I agree to the terms and conditions
+                    </label><br><br>
+                </fieldset>
+
+                <input type="submit" value="Submit Request">
+                <input type="reset" value="Reset Form">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Brian Ogada. Built with raw HTML5.</p>
+    </footer>
+
+</body>
+</html>
